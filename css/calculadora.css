@@ -65,10 +65,11 @@ img {
 
 }
 
-.content h4{
+main h4 {
     justify-content: space-around;
     padding: 0rem 0rem 0rem 4rem;
     color: orange;
+    text-align: center;
 }
 
 .cuestionario {
@@ -79,6 +80,9 @@ img {
     background-color: orange;
     padding: 20px;
     border-radius: 5px;
+    width: 100rem;
+    text-align: center;
+    margin: 0px 0px 5% 25%;
 }
 
 .form-space {
