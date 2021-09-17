@@ -1,7 +1,6 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%; /** Reset rems **/
-    background-color: #F5F5F5;
 }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -13,7 +12,7 @@ body {
     line-height: 2;
 }
 h1 {
-    font-size: 3.8rem;
+    font-size: 4.2rem;
     color: white;
 }
 
@@ -26,11 +25,7 @@ h3 {
 }
 
 h4 {
-    font-size: 2.6rem;
-}
-
-h5 {
-    font-size: 2rem;
+    font-size: 3.8rem;
 }
 
 img {
@@ -57,6 +52,14 @@ img {
 
 
 
+.Título {
+  margin-left: 1rem;
+}
+
+.container h2{
+  margin-left: 2rem;
+
+}
 
 
 #header.header-scrolled {
@@ -71,7 +74,7 @@ img {
   line-height: 1;
   min-width: 500px;
   font-weight: 700;
-  text-align: center;
+
 }
 #header .logo h1 a, #header .logo h1 a:hover {
   color: #fff;
@@ -299,8 +302,6 @@ img {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-
-  position: relative;
   padding: 120px 0 0 0;
   background: transparent;
   background-image: url("../Img/Eloic\ energy2.png");
@@ -322,16 +323,17 @@ img {
   font-weight: 700;
   line-height: 56px;
   color: rgba(255, 255, 255, 0.8);
-  margin-left: 1rem;
 }
 #hero h1 span {
   color: #fff;
   border-bottom: 4px solid #1acc8d;
 }
 #hero h2 {
-  color: rgba(255, 255, 255, 0.8);
+  color: white;
+  background-color: #f7963bd9;
   margin-bottom: 40px;
   font-size: 24px;
+  width: 70rem;
 }
 #hero .btn-get-started {
   font-family: "Montserrat", sans-serif;
@@ -483,39 +485,32 @@ img {
     transform: translate(85px, 0%);
   }
 }
-.titulo {
-    max-width: 150rem;
-    /* background-color: brown; */
-    width: 100%;
-    margin-left: 1rem;
-    color: gray;
-}
 
-
-
-.integrantes {
-    display: flex;
-    justify-content: space-between;
-}
-
-.img {
-    width: 50rem;
-    height: 35rem;
-}
-
-.persona {
-    width: 25%;
-    min-width: 30rem;
-    background-color: #FFEDAD;
-    margin: 2rem;
-    padding: 2rem;
-    border-radius: 1rem;
-    justify-content: space-around;
-    margin: 0 auto 20 auto;
-}
-.persona img{
-    border-radius: 0.5rem;
-}
-.persona h3{
+main {
     text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 160rem;
+
+}
+
+main h3 {
+    color: orange;
+    padding: 0rem 0rem 0rem 2rem;
+}
+
+h1 {
+    font-size: 4.2rem;
+    
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-size: 3.0rem;
+}
+
+h4 {
+    font-size: 3.8rem;
 }
