@@ -47,14 +47,14 @@ img {
   transition: all 0.5s;
   background: #cd853fe6;
   position: fixed;
-  s
+  
 
   
 }
   
 .container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
   
   
@@ -510,6 +510,7 @@ main h4 {
     width: 100rem;
     text-align: center;
     margin: 0px 0px 5% 25%;
+
 }
 
 .form-space {

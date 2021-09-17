@@ -9,32 +9,63 @@
     <link rel="stylesheet" href="/css/resultados.css">
 </head>
 <body>
-    <header class="site-header content-header">
-        <div class="barra">
-            <img class="logo" src="/Img/Ods Logo.png" alt="Ods7">
-            <nav class="navegation">
-                <a href="index.html">Inicio</a>
-                <a href="equipo.html">Equipo</a>
-                <a href="calculadora.html">Calculadora</a>
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+        <div class="container d-flex align-items-center justify-content-between">
+    
+          <div class="logo">
+            <h1><a href="index.html"><span>Energías accesibles y renovables</span></a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+          </div>
+    
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="objetivos.html">Objetivos</a></li>
+              <li><a href="equipo.html">Equipo</a></li>
+              <li><a href="calculadora.html">Calculadora</a></li>
 
-            </nav>
-            
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+    
         </div>
-        <h1>Calculadora de energía fotovoltaica</h1>
-        
+      </header><!-- End Header -->
+    
+      <!-- ======= Hero Section ======= -->
+      <section id="hero">
+
+    
+        <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+          <defs>
+            <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+          </defs>
+          <g class="wave1">
+            <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+          </g>
+          <g class="wave2">
+            <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+          </g>
+          <g class="wave3">
+            <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+          </g>
+        </svg>
 
 
-
-    </header>
+    
+      </section>
     <main>
         
         <div class="content">
-            <h3>Resultados:</h3>
-            <p>El coste de instalación de páneles solares en tu hogar es de $X pesos Chilenos</p>
-            <p>Considerando que la producción de energía en un espacio de Xm² es de XKWh y que la venta de XKWh es de $X pesos Chilenos; El tiempo que estimado de recuperación de la inversión es de X años</p>
-            <form class="form-space" action="/index.html">
-                <input type="submit" value="Volver al inicio">
-            </form>
+            <div class="resultados">
+                <h3>Resultados:</h3>
+                <p>El coste de instalación de páneles solares en tu hogar es de $X pesos Chilenos</p>
+                <p>Considerando que la producción de energía en un espacio de Xm² es de XKWh y que la venta de XKWh es de $X pesos Chilenos; El tiempo que estimado de recuperación de la inversión es de X años</p>
+                <form class="form-space" action="/index.html">
+                    <input type="submit" value="Volver al inicio">
+                </form>
+            </div>
+
             
 
 
