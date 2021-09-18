@@ -532,3 +532,18 @@ img {
     color: orange;
     font-size: 2rem;
 }
+
+.objective h4{
+  color: orange;
+  margin-left: 4rem;
+}
+
+.objective p {
+  color: black;
+  margin-left: 6rem;
+  font-size: 2.5rem;
+}
+
+.objective {
+  width: 75%;
+}

@@ -508,9 +508,54 @@ h2 {
 }
 
 h3 {
-    font-size: 3.0rem;
+    font-size: 2rem;
 }
 
 h4 {
     font-size: 3.8rem;
+}
+.preguntas_1 {
+  padding: 0rem 0rem 0rem 2rem;
+  max-width: 160rem;
+  background-color: #FFEDAD;
+  margin-left: 1rem;
+  border-radius: 1rem;
+
+}
+
+.preguntas_1 h3 {
+  text-transform: uppercase;
+  color: orange;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+.preguntas_1 p {
+  padding: 0rem 0rem 0rem 2.5rem;
+  font-size: 2rem;
+}
+
+.preguntas_2 {
+  padding: 0rem 0rem 0rem 2rem;
+  max-width: 160rem;
+  background-color: #FFEDAD;
+  margin-left: 1rem;
+  border-radius: 1rem;
+
+}
+
+.preguntas_2 h3 {
+  text-transform: uppercase;
+  color: orange;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.preguntas_2 li {
+  margin-left: 4rem;
+}
+.preguntas_2 p {
+  padding: 0rem 0rem 0rem 2.5rem;
+  font-size: 2rem;
 }
