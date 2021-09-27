@@ -9,63 +9,83 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <header class="site-header content-header">
-        <div class="barra">
-            <img class="logo" src="/Img/Ods Logo.png" alt="Ods7">
-            <nav class="navegation">
-                <a href="index.html">Inicio</a>
-                <a href="equipo.html">Equipo</a>
-                <a href="calculadora.html">Calculadora</a>
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+        <div class="container d-flex align-items-center justify-content-between">
+    
+          <div class="logo">
+            <h1><a href="index.html"><span>Energías accesibles y renovables</span></a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+          </div>
+    
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="objetivos.html">Preguntas</a></li>
+              <li><a href="equipo.html">Equipo</a></li>
+              <li><a href="calculadora.html">Calculadora</a></li>
+              <li><a href="bibliografía.html">Bibliografía</a></li>
 
-            </nav>
-            
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+    
         </div>
-        <h1>Transformando la energía en los hogares</h1>
-        
+      </header><!-- End Header -->
+    
+      <!-- ======= Hero Section ======= -->
+      <section id="hero">
+        <div class="container inicio">
+            <div class="row justify-content-between">
+              <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+                <div data-aos="zoom-out" class="inicio">
+                  <h1><span class="Título">¿Quienes Somos?</span></h1>
+                  <h2 class="Info"> Somos un grupo de estudiantes que buscan dar a conocer los beneficios de las energías renovables por medio de nuestra web y nuestra calculadora</h2>
+
+                </div>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
+                <img src="../Img/Eloic\ energy2.png" class="img-fluid animated" alt="">
+              </div>
+            </div>
+          </div>
+      
+    
+        <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+          <defs>
+            <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+          </defs>
+          <g class="wave1">
+            <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+          </g>
+          <g class="wave2">
+            <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+          </g>
+          <g class="wave3">
+            <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+          </g>
+        </svg>
 
 
-
-    </header>
+    
+      </section>
     <main>
-        <div class="content">
-            <h3>¿Cuanto crees que es el consumo de energía anual en chile?</h3>
-            <p>Según el Gobierno de Chile el consumo anual de energía electrica por vivienda es de 8.083 kW/año</p>
-            <h3>¿Sabes cuanto cuesta la energía en Chile?</h3>
-            <p>Un informa hecho por la Bibilioteca del Congreso Nacional de Chile estableció que los precios de la electricidad para los hogares en Chile el 2011 fue de 211US$/MWh (megavatio/hora), mientras que al sector industrial se le cobraba 154$US/MWh.</p>
-            <h3>¿Conoces los beneficios de la ley 20.571?</h3>
-            <p>La ley 20.571 da derecho a las personas que poseen energía autosustentable en sus hogares, vender esa energía a empresas que estimen conveniente.</p>
-            <h3>Con esto en mente, ¿Cual es el coste de una instalación de energía renovable?</h3>
-            <p>Según Enel, el coste promedio de una instalación de un sistema fotovoltaico en un hogar ronda los $3.800.000 pesos chilenos, con un periodo de retorno de esa inversión de unos 8-13 años</p>
+      <div class="objective">
+        <h4>Nuestro objetivo:</h4>
+        <p>Como equipo nuestro principal objetivo es, como se mencionó anteriormente, dar a conocer a la gente que las energías más baratas terminan siendo las renovables a un largo plazo, también señalarle a los usuarios que tan rentable se les haría hacer instalaciones de paneles solares en sus hogares por medio de nuesta calculadora </p>
 
-        </div>
+
+      </div>
         <div class="comparación">
             <h4>¡Si se puede!</h4>
             <img src="/Img/Energías 2016.jpg" alt="Tabla de Energías 2021">
             <img src="/Img/Energías.jpg" alt="Tabla de Energías 2016">
-            <h5>Como podemos ver en los gráficos, con el pasar de los años el consumo de energías no renobables a decaido, mientras que las energías más limpias y renovables han aumentado su presencia. El planeta necesita tu ayuda, el cambio está en nosotros.</h5>
+            <h5>Como podemos ver en los gráficos, con el pasar de los años el consumo de energías no renovables a decaido, mientras que las energías más limpias y renovables han aumentado su presencia. El planeta necesita tu ayuda, el cambio está en nosotros.</h5>
         </div>
 
     </main>
     <footer>
-        <h3>Bibliografía</h3>
-        <div class="Bibliografía">
-            <ul>
-                <li>https://www.universitatcarlemany.com/actualidad/ejemplos-de-energias-sucias-o-contaminantes</li>
-                <li>https://elpais.com/internacional/2011/03/12/actualidad/1299884412_850215.html</li>
-                <li>https://www.energia.gob.cl/sites/default/files/documentos/informe_final_caracterizacion_residencial_2018.pdf</li>
-                <li>https://www.enel.cl/content/dam/enel-cl/es/personas/informacion-de-utilidad/tarifas-y-reglamentos/tarifas/tarifas-históricas/tarifas-de-suministros-clientes-regulados/Tarifas%20Suministros%20Clientes%20Regulados%2010T%20-%20Mayo%202021.pdf</li>
-                <li>https://cndu.gob.cl/lun-ranking-de-comunas-que-mas-gastan-energia-electrica-en-el-hogar-busque-la-suya/</li>
-                <li>http://energiaabierta.cl</li>
-                <li>https://solar.minenergia.cl/calculadora</li>
-                <li>https://cndu.gob.cl/lun-ranking-de-comunas-que-mas-gastan-energia-electrica-en-el-hogar-busque-la-suya/</li>
-                <li>https://www.sasipa.cl/tarifas-e/</li>
-                <li>https://www.aprendeconenergia.cl/electricidad/</li>
-                <li>https://www.sec.cl/sitio-web/wp-content/uploads/2019/07/1-PRESENTACION-LEY-20571.pdf</li>
-                <li>https://es.wikipedia.org/wiki/Energ%C3%ADas_renovables_en_Chile</li>
-                <li>Encuesta realizada en red social Instagram</li>
-            </ul>
-        </div>
-
+    
     </footer>
 
 
@@ -73,4 +93,5 @@
 
 
 </body>
+<script src="/Js/main.js"></script>
 </html>
