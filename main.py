@@ -1,10 +1,5 @@
-from flask import Flask
-
-app = Flask(__name__)
-
-@app.route("/")
-def hello_world():
-    return "Hello World!"
-
-if __name__=="__main__":
-    app.run(debug=True)
+from flask import Flask, render_template, session, flash, request, redirect
+app= Flask(__name__)
+@app.route('/')
+def index():
+  return "<h1>Welcome to CodingX</h1>"

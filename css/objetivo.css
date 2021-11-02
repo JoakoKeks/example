@@ -307,16 +307,7 @@ img {
   background-image: url("../Img/Eloic\ energy2.png");
 }
 
-#hero:before {
-  content: "";
-  background: orange;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: transparent;
-}
+
 #hero h1 {
   margin: 0 0 20px 0;
   font-size: 48px;
