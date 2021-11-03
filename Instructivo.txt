@@ -1,0 +1,7 @@
+La página es muy intuitiva y fácil de manejar.
+
+El usuario puede navegar por distintas secciones en las cuales encontrará información, datos y una calculadora la cual le servirá para ver que tan rentable le resultaría hacer una instalación de paneles solares.
+
+Actualmente la calculadora de la página no está en funcionamiento pero se está trabajando en ello; 
+A futuro pensamos agregar una función que le permita al usuario colocar su correo electrónico en el formulario de la calculadora para que de esta forma los resultados sean enviados a su correo, 
+y así no tenga que volver a llenar el formulario más adelante si es que cierra la página.
