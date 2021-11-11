@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="Img/Ampolleta.png" rel="icon">
+    <link href="{{ url_for('static', filename='Img/Ampolleta.png') }}" rel="icon">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transformando la energía en los hogares</title>
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}">
+    <link rel="stylesheet"  href="{{ url_for('static', filename='css/style.css') }}"
+    >
 </head>
 <body>
     <header id="header" class="fixed-top d-flex align-items-center header-transparent">
@@ -21,8 +22,8 @@
     
           <nav id="navbar" class="navbar">
             <ul>
-              <li><a href="index.html">Inicio</a></li>
-              <li><a href="objetivos.html">Preguntas</a></li>
+              <li><a href="/">Inicio</a></li>
+              <li><a href="/">Preguntas</a></li>
               <li><a href="equipo.html">Equipo</a></li>
               <li><a href="calculadora.html">Calculadora</a></li>
               <li><a href="bibliografía.html">Bibliografía</a></li>
@@ -35,7 +36,7 @@
       </header><!-- End Header -->
     
       <!-- ======= Hero Section ======= -->
-      <section id="hero">
+      <section id="hero" style="{{{ url_for('static', filename='../Img/Eloic\ energy2.png') }}}">
         <div class="container inicio">
             <div class="row justify-content-between">
               <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
