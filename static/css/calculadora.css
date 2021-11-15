@@ -514,12 +514,19 @@ main {
 }
 .content {
   margin-top: 10rem;
-    background-color: orange;
-    padding: 20px;
-    border-radius: 5px;
-    width: 100rem;
-    text-align: center;
+  background-color: orange;
+  padding: 20px;
+  border-radius: 5px;
+  width: 100rem;
+  text-align: center;
 
+}
+.aclaracion {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+ 
 }
 
 .form-space {
@@ -533,6 +540,13 @@ input[type = text], select {
     margin: 8px 5px;
     border: 1px solid gray  ;
     border-radius: 4px;
+}
+input[type = number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 5px;
+  border: 1px solid gray  ;
+  border-radius: 4px;
 }
 
 input[type = submit] {

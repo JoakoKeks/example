@@ -68,22 +68,22 @@
 
         <div class="content">
             
-            <form class="form-space" action="/resultados">
+            <form class="form-space" action="/resultados" method="POST">
 
                 <label for="ccomuna">Consumo mensual de energía:</label>
-                <input type="text" id="ccomuna" name="consumo" placeholder="Ej: 100KWh..">
+                <input type="number" id="ccomuna" name="ccomuna" placeholder="Ej: 100kWh (Ingrese solo el número, considere que está en kilovatios por hora)" required>
 
                 <label for="mcuadrados">Superficie del hogar disponible para una instalación:</label>
-                <input type="text" id="mcuadrados" name="costo" placeholder="Ej: 10m²..">
+                <input type="number" id="mcuadrados" name="mcuadrados" placeholder="Ej: 10m² (Ingrese solo el número, considere que está en metros cuadrados)" required>
 
                 <label for="dcorreo">Ingrese su Correo: </label>
-                <input type="text" id="dcorreo" name="correo" placeholder="Ej: correo@dominio.example">
+                <input type="text" id="dcorreo" name="dcorreo" placeholder="Ej: correo@dominio.example" required>
 
-                <label for="nnombre">Ingrese su Correo: </label>
-                <input type="text" id="nnombre" name="nombre" placeholder="Ej: yop">
+                <label for="nnombre">Ingrese su Nombre: </label>
+                <input type="text" id="nnombre" name="nnombre" placeholder="Ej: yop" required>
 
                 <label for="comuna">Comuna:</label>
-                <select name="comuna" id=""comuna>
+                <select name="comuna" id="comuna">
                     <option value="Cerrillos">Cerrillos</option>
                     <option value="Cerro Navia">Cerro Navia</option>
                     <option value="Conchalí">Conchalí</option>
@@ -130,6 +130,7 @@
 
     </main>
     <footer>
+      <p class="aclaracion">*Al finalizar el formulario, se le enviará un correo electrónico con sus resultados junto con información sobre las energías renovables*</p>
 
     </footer>
 

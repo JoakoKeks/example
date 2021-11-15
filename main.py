@@ -17,9 +17,24 @@ def team():
 def calculator():
   return render_template("calculadora.html")
 
-@app.route('/resultados')
+@app.route('/resultados', methods=['POST'])
 def results():
-  return render_template("resultados.html")
+  
+  ccomuna = request.form['ccomuna']
+  mcuadrados = request.form['mcuadrados']
+  dcorreo = request.form['dcorreo']
+  nnombre = request.form['nnombre']
+  comuna = request.form['comuna']
+  return render_template(
+    "resultados.html",
+    ccomuna = ccomuna,
+    mcuadrados = mcuadrados,
+    dcorreo = dcorreo,
+    nnombre = nnombre,
+    comuna = comuna
+    ) 
+
+  
 
 @app.route('/bibliografía')
 def links():
