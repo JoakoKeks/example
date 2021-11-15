@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="Img/Ampolleta.png" rel="icon">
+    <link href="{{ url_for('static', filename='Img/Ampolleta.png') }}" rel="icon">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Equipo</title>
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/estructura.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estructura.css') }}">
 </head>
 <body>
     <header id="header" class="fixed-top d-flex align-items-center header-transparent">
         <div class="container d-flex align-items-center justify-content-between">
     
           <div class="logo">
-            <h1><a href="index.html"><span>Energías accesibles y renovables</span></a></h1>
+            <h1><a href="/"><span>Energías accesibles y renovables</span></a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
           </div>
     
           <nav id="navbar" class="navbar">
             <ul>
-              <li><a href="index.html">Inicio</a></li>
-              <li><a href="objetivos.html">Preguntas</a></li>
-              <li><a href="equipo.html">Equipo</a></li>
-              <li><a href="calculadora.html">Calculadora</a></li>
-              <li><a href="bibliografía.html">Bibliografía</a></li>
+              <li><a href="/">Inicio</a></li>
+              <li><a href="/objetivos">Preguntas</a></li>
+              <li><a href="/equipo">Equipo</a></li>
+              <li><a href="/calculadora">Calculadora</a></li>
+              <li><a href="/bibliografía">Bibliografía</a></li>
+
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
           </nav><!-- .navbar -->
@@ -74,7 +75,7 @@
         <div class="integrantes">
 
             <section class="persona">
-                <img class="img" src="/Img/Javier.jpeg" alt="Javier Abde">
+                <img class="img" src="static/Img/Javier.jpeg" alt="Javier Abde">
                 <h4>Javier Abde</h4>
                 <h5>Encargado de administrar las fechas y archivos</h5>
                 <ul>
@@ -85,7 +86,7 @@
             </section>
 
             <section class="persona">
-                <img class="img" src="/Img/Joaquín Arancibia.png" alt="Joaquín Arancibia">
+                <img class="img" src="static/Img/Joaquín Arancibia.png" alt="Joaquín Arancibia">
                 <h4>Joaquín Arancibia</h4>
                 <h5>Encargado de dudas y consultas al profesor</h5>
                 <ul>
@@ -96,7 +97,7 @@
             </section>
 
             <section class="persona">
-                <img class="img" src="/Img/Joaquín Aravena.jpeg" alt="Joaquín Aravena">
+                <img class="img" src="static/Img/Joaquín Aravena.jpeg" alt="Joaquín Aravena">
                 <h4>Joaquín Aravena</h4>
                 <h5>Encargado de programar y diseñar</h5>
                 <ul>
@@ -107,7 +108,7 @@
             </section>
 
             <section class="persona">
-                <img class="img" src="/Img/Agustín.jpeg" alt="Agustín Vásquez">
+                <img class="img" src="static/Img/Agustín.jpeg" alt="Agustín Vásquez">
                 <h4>Agustín Vásquez</h4>
                 <h5>Encargado de realizar los informes</h5>
                 <ul>

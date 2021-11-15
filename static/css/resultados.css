@@ -69,12 +69,14 @@ img {
   }
   #header .logo h1 {
     font-size: 28px;
-    margin: 0;
-    padding: 10px 0rem 0rem 1rem;
+    min-height: 4.5rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-left: 1rem;
     line-height: 1;
-    min-width: 500px;
+    width: auto;
     font-weight: 700;
-  
+    background-color: #ffa500e6;
   }
   #header .logo h1 a, #header .logo h1 a:hover {
     color: #fff;

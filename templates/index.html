@@ -15,7 +15,7 @@
         <div class="container d-flex align-items-center justify-content-between">
     
           <div class="logo">
-            <h1><a href="index.html"><span>Energías accesibles y renovables</span></a></h1>
+            <h1><a href="/"><span>Energías accesibles y renovables</span></a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
           </div>
@@ -23,10 +23,10 @@
           <nav id="navbar" class="navbar">
             <ul>
               <li><a href="/">Inicio</a></li>
-              <li><a href="/">Preguntas</a></li>
-              <li><a href="equipo.html">Equipo</a></li>
-              <li><a href="calculadora.html">Calculadora</a></li>
-              <li><a href="bibliografía.html">Bibliografía</a></li>
+              <li><a href="/objetivos">Preguntas</a></li>
+              <li><a href="/equipo">Equipo</a></li>
+              <li><a href="/calculadora">Calculadora</a></li>
+              <li><a href="/bibliografía">Bibliografía</a></li>
 
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
@@ -36,7 +36,8 @@
       </header><!-- End Header -->
     
       <!-- ======= Hero Section ======= -->
-      <section id="hero" style="{{{ url_for('static', filename='../Img/Eloic\ energy2.png') }}}">
+      <section id="hero" >
+       
         <div class="container inicio">
             <div class="row justify-content-between">
               <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
@@ -47,7 +48,7 @@
                 </div>
               </div>
               <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
-                <img src="../Img/Eloic\ energy2.png" class="img-fluid animated" alt="">
+                <img src="{{ url_for('static', filename='../Img/Eloic\ energy2.png') }}" class="img-fluid animated" alt="">
               </div>
             </div>
           </div>
@@ -80,8 +81,8 @@
       </div>
         <div class="comparación">
             <h4>¡Si se puede!</h4>
-            <img src="/Img/Energías 2016.jpg" alt="Tabla de Energías 2021">
-            <img src="/Img/Energías.jpg" alt="Tabla de Energías 2016">
+            <img src="static/Img/Energías 2016.jpg" alt="Tabla de Energías 2021">
+            <img src="static/Img/Energías.jpg" alt="Tabla de Energías 2016">
             <h5>Como podemos ver en los gráficos, con el pasar de los años el consumo de energías no renovables a decaido, mientras que las energías más limpias y renovables han aumentado su presencia. El planeta necesita tu ayuda, el cambio está en nosotros.</h5>
         </div>
 
