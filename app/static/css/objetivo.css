@@ -1,7 +1,6 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%; /** Reset rems **/
-    background-color: #F5F5F5;
 }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -13,7 +12,7 @@ body {
     line-height: 2;
 }
 h1 {
-    font-size: 3.8rem;
+    font-size: 4.2rem;
     color: white;
 }
 
@@ -26,11 +25,7 @@ h3 {
 }
 
 h4 {
-    font-size: 2.6rem;
-}
-
-h5 {
-    font-size: 2rem;
+    font-size: 3.8rem;
 }
 
 img {
@@ -44,25 +39,15 @@ img {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #cd853fe6;
+  background: #cd863f71;
   position: fixed;
-
+  border-radius: 0.5rem;
   
 }
-
-.container {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-
-
-
 #header.header-scrolled {
-  background-color: orange;
-  height: 60px;
-  transition: 0.5s all;
+    background-color: orange;
+    height: 60px;
+    transition: 0.5s all;
 }
 #header .logo h1 {
   font-size: 28px;
@@ -73,17 +58,32 @@ img {
   line-height: 1;
   width: auto;
   font-weight: 700;
-  background-color: #ffa500e6;
+  background-color: #ffbb3ce6;
 }
 #header .logo h1 a, #header .logo h1 a:hover {
   color: #fff;
   text-decoration: none;
 }
-#header .logo img {
-  padding: 0;
-  margin: 0;
-  max-height: 40px;
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
 }
+
+
+
+.Título {
+  margin-left: 1rem;
+}
+
+.container h2{
+  margin-left: 2rem;
+
+}
+
+
+
 
 /*--------------------------------------------------------------
 # igation Menu
@@ -97,7 +97,7 @@ img {
 }
 .navbar ul {
   margin: 0;
-  padding: 0;
+  padding: 1rem;
   display: flex;
   list-style: none;
   align-items: center;
@@ -113,7 +113,7 @@ img {
   align-items: center;
   justify-content: right;
   padding: 1rem;
-  background-color: #ffa500e6;
+  background-color: #ffbb3ce6;
   font-size: 20px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
@@ -301,39 +301,29 @@ img {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-
-  position: relative;
   padding: 120px 0 0 0;
   background: transparent;
   background-image: url("../Img/Eloic\ energy2.png");
 }
 
-#hero:before {
-  content: "";
-  background: orange;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: transparent;
-}
+
 #hero h1 {
   margin: 0 0 20px 0;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
   color: rgba(255, 255, 255, 0.8);
-  margin-left: 2rem;
 }
 #hero h1 span {
   color: #fff;
   border-bottom: 4px solid #1acc8d;
 }
 #hero h2 {
-  color: rgba(255, 255, 255, 0.8);
+  color: white;
+  background-color: #f7963bd9;
   margin-bottom: 40px;
   font-size: 24px;
+  width: 70rem;
 }
 #hero .btn-get-started {
   font-family: "Montserrat", sans-serif;
@@ -485,39 +475,77 @@ img {
     transform: translate(85px, 0%);
   }
 }
-.titulo {
-    max-width: 150rem;
-    /* background-color: brown; */
-    width: 100%;
-    margin-left: 1rem;
-    color: gray;
-}
 
-
-
-.integrantes {
-    display: flex;
-    justify-content: space-between;
-}
-
-.img {
-    width: 50rem;
-    height: 35rem;
-}
-
-.persona {
-    width: 25%;
-    min-width: 30rem;
-    background-color: #FFEDAD;
-    margin: 2rem;
-    padding: 2rem;
-    border-radius: 1rem;
-    justify-content: space-around;
-    margin: 0 auto 20 auto;
-}
-.persona img{
-    border-radius: 0.5rem;
-}
-.persona h3{
+main {
     text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 160rem;
+
+}
+
+main h3 {
+    color: orange;
+    padding: 0rem 0rem 0rem 2rem;
+}
+
+h1 {
+    font-size: 4.2rem;
+    
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 3.8rem;
+}
+.preguntas_1 {
+  padding: 0rem 0rem 0rem 2rem;
+  max-width: 160rem;
+  background-color: #FFEDAD;
+  margin-left: 1rem;
+  border-radius: 1rem;
+
+}
+
+.preguntas_1 h3 {
+  text-transform: uppercase;
+  color: orange;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+.preguntas_1 p {
+  padding: 0rem 0rem 0rem 2.5rem;
+  font-size: 2rem;
+}
+
+.preguntas_2 {
+  padding: 0rem 0rem 0rem 2rem;
+  max-width: 160rem;
+  background-color: #FFEDAD;
+  margin-left: 1rem;
+  border-radius: 1rem;
+
+}
+
+.preguntas_2 h3 {
+  text-transform: uppercase;
+  color: orange;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.preguntas_2 li {
+  margin-left: 4rem;
+}
+.preguntas_2 p {
+  padding: 0rem 0rem 0rem 2.5rem;
+  font-size: 2rem;
 }

@@ -21,11 +21,11 @@
     
           <nav id="navbar" class="navbar">
             <ul>
-              <li><a href="/">Inicio</a></li>
-              <li><a href="/objetivos">Preguntas</a></li>
-              <li><a href="/equipo">Equipo</a></li>
-              <li><a href="/calculadora">Calculadora</a></li>
-              <li><a href="/bibliografía">Bibliografía</a></li>
+              <li><a class="inicio" href="/">Inicio</a></li>
+              <li><a class="objetivos" href="/objetivos">Preguntas</a></li>
+              <li><a class="equipo" href="/equipo">Equipo</a></li>
+              <li><a class="calculadora" href="/calculadora">Calculadora</a></li>
+              <li><a class="bibliografía" href="/bibliografía">Bibliografía</a></li>
 
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
@@ -70,7 +70,7 @@
             
             <form class="form-space" action="/resultados" method="POST">
 
-                <label for="ccomuna">Consumo mensual de energía:</label>
+                <label for="ccomuna">Consumo mensual de energía: </label>
                 <input type="number" id="ccomuna" name="ccomuna" placeholder="Ej: 100kWh (Ingrese solo el número, considere que está en kilovatios por hora)" required>
 
                 <label for="mcuadrados">Superficie del hogar disponible para una instalación:</label>
@@ -130,7 +130,7 @@
 
     </main>
     <footer>
-      <p class="aclaracion">*Al finalizar el formulario, se le enviará un correo electrónico con sus resultados junto con información sobre las energías renovables*</p>
+      <p class="aclaracion">*Su correo será utilizado exclusivamente para tener un registro del uso de la página*</p>
 
     </footer>
 

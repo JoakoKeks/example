@@ -22,11 +22,11 @@
     
           <nav id="navbar" class="navbar">
             <ul>
-              <li><a href="/">Inicio</a></li>
-              <li><a href="/objetivos">Preguntas</a></li>
-              <li><a href="/equipo">Equipo</a></li>
-              <li><a href="/calculadora">Calculadora</a></li>
-              <li><a href="/bibliografía">Bibliografía</a></li>
+              <li><a class="inicio" href="/">Inicio</a></li>
+              <li><a class="objetivos" href="/objetivos">Preguntas</a></li>
+              <li><a class="equipo" href="/equipo">Equipo</a></li>
+              <li><a class="calculadora" href="/calculadora">Calculadora</a></li>
+              <li><a class="bibliografía" href="/bibliografía">Bibliografía</a></li>
 
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
@@ -81,13 +81,13 @@
       </div>
         <div class="comparación">
             <h4>¡Si se puede!</h4>
-            <img src="static/Img/Energías 2016.jpg" alt="Tabla de Energías 2021">
-            <img src="static/Img/Energías.jpg" alt="Tabla de Energías 2016">
+            <img src="{{ url_for('static', filename='Img/Energías 2016.jpg') }}" alt="Tabla de Energías 2021">
+            <img src="{{ url_for('static', filename='Img/Energías.jpg') }}" alt="Tabla de Energías 2016">
             <h5>Como podemos ver en los gráficos, con el pasar de los años el consumo de energías no renovables a decaido, mientras que las energías más limpias y renovables han aumentado su presencia. El planeta necesita tu ayuda, el cambio está en nosotros.</h5>
         </div>
 
     </main>
-    <footer>
+    <footer>  
     
     </footer>
 

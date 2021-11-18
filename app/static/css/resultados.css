@@ -1,20 +1,15 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%; /** Reset rems **/
-    
 }
   *, *:before, *:after {
-    
-    box-sizing: border-box;
-    
+    box-sizing: inherit;
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.6rem;
     line-height: 2;
-    
-    
 }
 h1 {
     font-size: 3.8rem;
@@ -38,52 +33,56 @@ img {
     
 }
 
-
 #header {
   height: 70px;
   width: 100%;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #cd853fe6;
+  background: #cd863f71;
   position: fixed;
-  
-
+  border-radius: 0.5rem;
   
 }
-  
-.container {
-  display: flex;
-  justify-content: space-between;
-}
-  
-  
-  
-  #header.header-scrolled {
+#header.header-scrolled {
     background-color: orange;
     height: 60px;
     transition: 0.5s all;
+}
+#header .logo h1 {
+  font-size: 28px;
+  min-height: 4.5rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  line-height: 1;
+  width: auto;
+  font-weight: 700;
+  background-color: #ffbb3ce6;
+}
+#header .logo h1 a, #header .logo h1 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+  
+  .container {
+      display: flex;
+      justify-content: space-between;
   }
-  #header .logo h1 {
-    font-size: 28px;
-    min-height: 4.5rem;
-    border-radius: 0.5rem;
-    padding: 0.5rem;
+  
+  
+  
+  .Título {
     margin-left: 1rem;
-    line-height: 1;
-    width: auto;
-    font-weight: 700;
-    background-color: #ffa500e6;
   }
-  #header .logo h1 a, #header .logo h1 a:hover {
-    color: #fff;
-    text-decoration: none;
+  
+  .container h2{
+    margin-left: 2rem;
+  
   }
-  #header .logo img {
-    padding: 0;
-    margin: 0;
-    max-height: 40px;
-  }
+  
+  
+  
   
   /*--------------------------------------------------------------
   # igation Menu
@@ -97,7 +96,7 @@ img {
   }
   .navbar ul {
     margin: 0;
-    padding: 0;
+    padding: 1rem;
     display: flex;
     list-style: none;
     align-items: center;
@@ -113,7 +112,7 @@ img {
     align-items: center;
     justify-content: right;
     padding: 1rem;
-    background-color: #ffa500e6;
+    background-color: #ffbb3ce6;
     font-size: 20px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
@@ -301,25 +300,12 @@ img {
   --------------------------------------------------------------*/
   #hero {
     width: 100%;
-    
-  
-    position: relative;
     padding: 120px 0 0 0;
     background: transparent;
     background-image: url("../Img/Eloic\ energy2.png");
   }
   
-  #hero:before {
-    content: "";
-    background: orange;
-    position: absolute;
-    
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    background: transparent;
-  }
+  
   #hero h1 {
     margin: 0 0 20px 0;
     font-size: 48px;
@@ -332,9 +318,11 @@ img {
     border-bottom: 4px solid #1acc8d;
   }
   #hero h2 {
-    color: rgba(255, 255, 255, 0.8);
+    color: white;
+    background-color: #f7963bd9;
     margin-bottom: 40px;
     font-size: 24px;
+    width: 70rem;
   }
   #hero .btn-get-started {
     font-family: "Montserrat", sans-serif;
@@ -414,7 +402,6 @@ img {
     height: 60px;
     z-index: 5;
     position: relative;
-    
   }
   
   .wave1 use {
@@ -488,82 +475,35 @@ img {
     }
   }
 
-.navegation a{
-    color: white;
-    font-size: 2.25rem;
-
-}
-
-main h4 {
+.content h3{
     justify-content: space-around;
-    padding: 0rem 0rem 0rem 4rem;
+    padding: 0rem 0rem 0rem 3rem;
     color: orange;
+}
+
+.resultados {
+    background-color: #FFEDAD;
+    margin: 10rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 1rem;
+    
 }
-
-.cuestionario {
-    padding: 0rem 0rem 0rem 6rem;
-}
-
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.content {
-  margin-top: 10rem;
-  background-color: orange;
-  padding: 20px;
-  border-radius: 5px;
-  width: 100rem;
-  text-align: center;
-
-}
-.aclaracion {
-  padding-top: 1rem;
-  padding-left: 1rem;
-  margin-top: 2rem;
-  margin-left: 2rem;
- 
+.content p{
+    justify-content: space-around;
+    padding: 0rem 0rem 0rem 5rem;
+    font-size: 30px;
 }
 
 .form-space {
     display: flex;
     flex-direction: column;
+    width: 10%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
-input[type = text], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 5px;
-    border: 1px solid gray  ;
-    border-radius: 4px;
-}
-input[type = number], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 5px;
-  border: 1px solid gray  ;
-  border-radius: 4px;
-}
 
-input[type = submit] {
-    width: 100%;
-    background-color: rgb(7, 155, 7);
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0px;
-    border: none ;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-input[type = submit]:hover {
-    background-color: rgb(5, 107, 5);
-}
-
-.Título {
-  margin-left: 5rem;
-}

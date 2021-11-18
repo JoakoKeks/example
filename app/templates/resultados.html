@@ -21,11 +21,11 @@
     
           <nav id="navbar" class="navbar">
             <ul>
-              <li><a href="/">Inicio</a></li>
-              <li><a href="/objetivos">Preguntas</a></li>
-              <li><a href="/equipo">Equipo</a></li>
-              <li><a href="/calculadora">Calculadora</a></li>
-              <li><a href="/bibliografía">Bibliografía</a></li>
+              <li><a class="inicio" href="/">Inicio</a></li>
+              <li><a class="objetivos" href="/objetivos">Preguntas</a></li>
+              <li><a class="equipo" href="/equipo">Equipo</a></li>
+              <li><a class="calculadora" href="/calculadora">Calculadora</a></li>
+              <li><a class="bibliografía" href="/bibliografía">Bibliografía</a></li>
 
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
@@ -62,8 +62,12 @@
             <div class="resultados">
                 <h3>Resultados:</h3>
                 <p>El coste de instalación de páneles solares en tu hogar es de $X pesos Chilenos</p>
-                <p>Considerando que la producción de energía en un espacio de Xm² es de XKWh y que la venta de XKWh es de $X pesos Chilenos; El tiempo que estimado de recuperación de la inversión es de X años</p>
-                {{ccomuna}} {{mcuadrados}} {{dcorreo}} {{nnombre}} {{comuna}}
+                <p>El precio de instalación de paneles solares en un área de {{mcuadrados}}m² es de: {{costo}}</p>
+                <p>Considerando que la producción de energía por paneles solares en un espacio de {{mcuadrados}}m² es de {{posible_energía}}KWh y que el precio promedio del KWh es de $78 pesos chilenos</p>
+                <p>El costo de instalación vendría a ser: ${{costo}} pesos chilenos</p>
+                <p>La producción de energía por los paneles, generaría aproximadamente: ${{gv_anual}} pesos anualmente</p>
+                <p>El retorno estimado para el primer año de instalación es de : ${{ganancia}} pesos chilenos</p>
+
                 <form href="/" class="form-space" action="/">
                     <input type="submit" value="Volver al inicio">
                 </form>
